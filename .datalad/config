@@ -1,2 +1,5 @@
 [datalad "dataset"]
 	id = 56328a05-b756-4400-890b-40cee8f9aa51
+[datalad "containers.Gen"]
+	image = sing/CNC-UMCG-cnc_fsl-master-latest.simg
+	cmdexec = singularity exec {img} {cmd}
